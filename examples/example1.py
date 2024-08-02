@@ -7,7 +7,7 @@ import fdls
 
 numtaps = 1024
 samplerate = 44100
-freq = np.linspace(0, samplerate/2,  numtaps)
+freq = np.linspace(0, samplerate/2, numtaps)
 magnitude = 0.5*np.sin(2*np.pi*2*np.linspace(0, 1, numtaps)) - freq/samplerate + 1
 plt.semilogx(freq, 20*np.log10(magnitude))
 

@@ -8,7 +8,7 @@ NUMTAPS = 4096
 SAMPLERATE = 44100
 
 # create a desired magnitude spectrum
-freq = np.linspace(0, SAMPLERATE/2,  NUMTAPS)
+freq = np.linspace(0, SAMPLERATE/2, NUMTAPS)
 phi = np.cumsum(np.logspace(2, 0, NUMTAPS))*2*np.pi/SAMPLERATE
 magnitude = 0.5*np.cos(phi) - freq/SAMPLERATE + 1
 
