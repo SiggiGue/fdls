@@ -1,0 +1,6 @@
+numpydoc
+numpy
+scipy
+matplotlib
+sphinx-rtd-theme
+sphinx-autodoc-typehints

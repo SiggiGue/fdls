@@ -1,0 +1,6 @@
+__pycache__
+docs/_*/
+pip-wheel-metadata
+*.egg-info
+*.lock
+.coverage

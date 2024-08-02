@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: fdls
+version: 0.1.0
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Siegfried
+    family-names: Gündert
+    email: siegfried.guendert@gmail.com
+repository-code: 'https://github.com/SiggiGue/fdls'
+abstract: >-
+  FDLS implements the Frequency Domain Least Squares filter design method
+  based on Soderstrand (1995) and Berchin (2007) as reusable python package.
+license: MPL-2.0
